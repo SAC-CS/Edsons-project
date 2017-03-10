@@ -6,7 +6,9 @@ public class RPS {
 	
 	public static void main(String args[])
 	{
+		//Please comment here 
 		Scanner input = new Scanner(System.in);
+		//Please comment here 
 		Random rps = new Random();
 		
 		
@@ -43,6 +45,7 @@ public class RPS {
 			System.out.println("Computer chose paper");
 		}
 		
+		//Please comment here 
 		
 		if (Number == rock) {
 			if (user == rock) {
@@ -54,6 +57,7 @@ public class RPS {
 			}			
 		}
 		
+		//Please comment here 
 		if (Number == scissor) {
 			if (user == scissor) {
 				System.out.print("Tie");
