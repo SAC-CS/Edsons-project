@@ -7,6 +7,7 @@ public class randomnumb {
 		
 		int rndnumber;
 		int user;
+		// Note to Edson:  please rename these to countWin/countLose or WinCount/LoseCount
 		int count1 = 1;
 		int count2 = 1;
 		int b = 0;
@@ -39,6 +40,8 @@ public class randomnumb {
 			//Try again
 			System.out.print("\nTry Again? Yes = 1, No = 0: ");
 			user = input.nextInt();
+			
+			// Note to Edson:  These 2 variables should be declared outside of the while loop
 			int y = 1;
 			int n = 0;
 		
