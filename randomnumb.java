@@ -11,6 +11,7 @@ public class randomnumb {
 		int count2 = 1;
 		int b = 0;
 		
+		// why != 3?
 		while (b != 3) { 
 			
 			//Computer generating a number between 0-10
@@ -47,6 +48,8 @@ public class randomnumb {
 			} else {
 			
 			System.out.print("Adios");
+				
+			// This is pretty drastic and may not be necessary.
 			System.exit(0);
 			}
 	}
