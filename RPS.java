@@ -15,7 +15,7 @@ public class RPS {
 		int paper = 3;
 		
 		int user;
-		
+		// 1 println will do
 		System.out.print("Pick 1, 2, or 3 \nRock(1), Scissors(2), Paper(3)");
 		
 		System.out.println("\nSelect a number: ");
@@ -29,6 +29,7 @@ public class RPS {
 		} else if (user == paper){
 			System.out.print("You chose Paper\n");
 		} else  {
+			//  This is not a true Good Bye....
 			System.out.print("GoodBye\n"); //If user decides to be smart and a greater number, keeps from crashing the project
 		}
 		
