@@ -25,7 +25,7 @@ public class calculator {
 		diff = number1 - number2;
 		quot = number1 / number2;
 		
-		
+		// one more /n at the end would be nice
 		System.out.printf("The sum is %f.\nThe difference is %f.\nThe product is %f.\nLastly, the quotient is %f", sum, diff, prod, quot);
 	}	
 }
