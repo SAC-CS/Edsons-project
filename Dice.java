@@ -24,6 +24,8 @@ public class Dice {
             boolean play = true;
             String again;
             
+	    // Edson, you do not need array for this purpose....6 variables will do.
+	    // You would use array if you want to track all the entries that the user enter so that you can display the hisotry when game is over
             int[] total;
             
             total = new int[6];
